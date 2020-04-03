@@ -1,0 +1,10 @@
+{
+    "links": {
+        "sidebar": {
+            "Поддержка": "http://mkkm.kz"
+        }
+    },
+	"pdf": {
+		"paperSize": "a5"
+	}
+}
