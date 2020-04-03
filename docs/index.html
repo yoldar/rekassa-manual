@@ -11,6 +11,10 @@
     :root {
       --base-font-size: 14px;
       --theme-color   : #FE9200;
+      --sidebar-name-text-align: left;
+    }
+    .sidebar>h1 img {
+      max-width: 70%;
     }
   </style>
 </head>
@@ -22,7 +26,8 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
+      el: '#app',
+      name: 'reKASSA',
       repo: '',
       loadSidebar: true,
       auto2top: true,
